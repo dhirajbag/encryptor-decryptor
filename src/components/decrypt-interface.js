@@ -65,8 +65,9 @@ class Decryption extends Component {
                         <div className="row">
                             <div className="col-3"></div>
                             <div className="col-6">
-                                <Button
+                                <Button type="submit"
                                     onClick={this.handleSubmit}
+                                    disabled={this.state.message.length===0 || this.state.passphrase.length===0}
                                 >Decrypt The Message</Button>
                             </div>
                             <div className="col-3"></div>
@@ -93,7 +94,7 @@ class Decryption extends Component {
                         <div className="row">
                             <div className="col-3"></div>
                             <div className="col-6">
-                                <Button
+                                <Button type="submit"
                                     onClick={this.handleCopy}
                                 >Copy To Clipboard</Button>
                             </div>
