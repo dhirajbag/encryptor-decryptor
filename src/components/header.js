@@ -18,14 +18,14 @@ const Header = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand><NavLink className="nav-link" to="./encrypt" ><font color="secondary"><h3>Encryptor-Decryptor</h3></font></NavLink></NavbarBrand>
+        <NavbarBrand><NavLink className="nav-link" to="/encrypt" ><font color="secondary"><h3>Encryptor-Decryptor</h3></font></NavLink></NavbarBrand>
         <Nav tabs>
           <NavItem>
             <NavLink
               className={classnames({ active: activeTab === 'tab1' })}
               onClick={() => { toggle('tab1'); }}
               className="nav-link"
-              to="./encrypt"
+              to="/encrypt"
             >
               Encrypt
             </NavLink>
@@ -35,7 +35,7 @@ const Header = (props) => {
               className={classnames({ active: activeTab === 'tab2' })}
               onClick={() => { toggle('tab2'); }}
               className="nav-link"
-              to="./decrypt"
+              to="/decrypt"
             >
               Decrypt
             </NavLink>

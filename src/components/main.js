@@ -12,8 +12,8 @@ class Main extends Component{
             <div>
                 <Header/>
                 <Switch>
-                    <Route path="/encrypt" component={Encryption}/>
-                    <Route path="/decrypt" component={Decryption}/>
+                    <Route exact path="/encrypt" component={Encryption}/>
+                    <Route exact path="/decrypt" component={Decryption}/>
                     <Redirect to="/encrypt"/>
                 </Switch>
                 <Footer/>
