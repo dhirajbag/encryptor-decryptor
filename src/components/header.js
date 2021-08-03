@@ -18,7 +18,7 @@ const Header = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="./"><font color="secondary"><h3>Encryptor-Decryptor</h3></font></NavbarBrand>
+        <NavbarBrand><NavLink className="nav-link" to="./encrypt" ><font color="secondary"><h3>Encryptor-Decryptor</h3></font></NavLink></NavbarBrand>
         <Nav tabs>
           <NavItem>
             <NavLink

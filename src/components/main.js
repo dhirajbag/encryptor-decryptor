@@ -14,7 +14,7 @@ class Main extends Component{
                 <Switch>
                     <Route path="/encrypt" component={Encryption}/>
                     <Route path="/decrypt" component={Decryption}/>
-                    <Redirect to="./encrypt"/>
+                    <Redirect to="/encrypt"/>
                 </Switch>
                 <Footer/>
                 
