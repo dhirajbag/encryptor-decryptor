@@ -25,7 +25,7 @@ const Header = (props) => {
               className={classnames({ active: activeTab === 'tab1' })}
               onClick={() => { toggle('tab1'); }}
               className="nav-link"
-              to="/encrypt"
+              to="./encrypt"
             >
               Encrypt
             </NavLink>
@@ -35,7 +35,7 @@ const Header = (props) => {
               className={classnames({ active: activeTab === 'tab2' })}
               onClick={() => { toggle('tab2'); }}
               className="nav-link"
-              to="/decrypt"
+              to="./decrypt"
             >
               Decrypt
             </NavLink>
