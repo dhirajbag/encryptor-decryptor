@@ -6,9 +6,9 @@ class Decryption extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            message: '',
-            passphrase: '',
-            decrypted_msg: ''
+            message: "",
+            passphrase: "",
+            decrypted_msg: ""
         };
 
         this.handleMsgChange = this.handleMsgChange.bind(this);

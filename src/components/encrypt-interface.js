@@ -5,9 +5,9 @@ class Encryption extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            message: '',
-            passphrase: '',
-            encrypted_msg: ''
+            message: "",
+            passphrase: "",
+            encrypted_msg: ""
         };
 
         this.handleMsgChange = this.handleMsgChange.bind(this);
