@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/encryptor-decryptor/static/css/main.a617e044.chunk.css",
+    "main.js": "/encryptor-decryptor/static/js/main.dc2a0b31.chunk.js",
+    "main.js.map": "/encryptor-decryptor/static/js/main.dc2a0b31.chunk.js.map",
+    "runtime-main.js": "/encryptor-decryptor/static/js/runtime-main.5b2cfb17.js",
+    "runtime-main.js.map": "/encryptor-decryptor/static/js/runtime-main.5b2cfb17.js.map",
+    "static/css/2.89d4f893.chunk.css": "/encryptor-decryptor/static/css/2.89d4f893.chunk.css",
+    "static/js/2.1fc8f975.chunk.js": "/encryptor-decryptor/static/js/2.1fc8f975.chunk.js",
+    "static/js/2.1fc8f975.chunk.js.map": "/encryptor-decryptor/static/js/2.1fc8f975.chunk.js.map",
+    "static/js/3.d5b4bea4.chunk.js": "/encryptor-decryptor/static/js/3.d5b4bea4.chunk.js",
+    "static/js/3.d5b4bea4.chunk.js.map": "/encryptor-decryptor/static/js/3.d5b4bea4.chunk.js.map",
+    "index.html": "/encryptor-decryptor/index.html",
+    "static/css/2.89d4f893.chunk.css.map": "/encryptor-decryptor/static/css/2.89d4f893.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/encryptor-decryptor/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.1fc8f975.chunk.js.LICENSE.txt": "/encryptor-decryptor/static/js/2.1fc8f975.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/encryptor-decryptor/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b2cfb17.js",
+    "static/css/2.89d4f893.chunk.css",
+    "static/js/2.1fc8f975.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.dc2a0b31.chunk.js"
+  ]
+}
